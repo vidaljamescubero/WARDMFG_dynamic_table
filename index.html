@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="duda-container">       
+
+        <div class="tableContainer">
+            <div class="tableHeader">
+                Current Price Sheet
+            </div>
+            <div class="currentPriceSheetWrapper"></div>
+            <div class="priceSheetDetails">
+                <div class="priceSheetTable">
+                    <select name="table" id="tablesPrice">
+                    </select>
+                </div>
+
+                <div class="priceSheetSort"> 
+                    <select name="sort" id="sortPrice">
+                        <option value="Month">Month</option>
+                        <option value="Name">Name</option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="LndDContainer">
+            <div class="LndHeader">
+                Literature/Downloads
+            </div>
+            <div class="LnDWrapper"></div>
+            <div class="LnDDetails">
+                <div class="LnDTable">
+                    <select name="table" id="tablesLnD">
+                    </select>
+                </div>
+
+                <div class="LnDSort"> 
+                    <select name="sort" id="sortLnD">
+                        <option value="Month">Month</option>
+                        <option value="Name">Name</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="tableContainerHist">
+            <div class="tableHeaderHist">
+                History Price Sheet
+            </div>
+            <div class="currentPriceSheetWrapperHist"></div>
+            <div class="priceSheetDetailsHist">
+                <div class="priceSheetTableHist">
+                    <select name="table" id="tablesPriceHist">
+                    </select>
+                </div>
+
+                <div class="priceSheetSortHist"> 
+                    <select name="sort" id="sortPriceHist">
+                        <option value="Month">Month</option>
+                        <option value="Name">Name</option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
