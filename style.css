@@ -200,10 +200,7 @@ table.gridjs-table {
     text-align: left
 }
 
-.gridjs-tbody,
-td.gridjs-td {
-    background-color: #fff
-}
+
 
 td.gridjs-td {
     border: 1px solid #e5e7eb;
@@ -969,8 +966,9 @@ button.gridjs-sort {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
     visibility: visible;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 .priceSheetSort, .LnDSort, .sortPriceHist {
@@ -1014,3 +1012,6 @@ th.gridjs-th-sort:focus, th.gridjs-th-sort:hover {
     background-color: #E0A230;
 }
 
+.opacity0 {
+    opacity: 0;
+}
